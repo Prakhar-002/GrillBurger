@@ -5,22 +5,22 @@ const NavLinks = [
       {
             id: 1,
             title: "Home",
-            link : "./#",
+            link: "./#",
       },
       {
             id: 2,
             title: "About",
-            link : "./#About",
+            link: "./#About",
       },
       {
             id: 3,
             title: "Menu",
-            link : "./#Menu",
+            link: "./#Menu",
       },
       {
             id: 4,
             title: "Services",
-            link : "./#Services",
+            link: "./#Services",
       },
 ];
 
@@ -34,8 +34,8 @@ const Navbar = () => {
                                     <a href="/#"
 
                                     >
-                                          <img src={Logo} alt="" 
-                                          className='w-16'
+                                          <img src={Logo} alt=""
+                                                className='w-16'
                                           />
                                     </a>
                               </div>
@@ -45,17 +45,17 @@ const Navbar = () => {
                                           {NavLinks.map((link) => (
                                                 <li key={link.id}>
                                                       <a
-                                                      className='inline-block 
+                                                            className='inline-block 
                                                       py-4 px-4 
                                                       hover:text-primary 
                                                       duration-300
                                                       '
-                                                      href={link.link}>{link.title}</a>
+                                                            href={link.link}>{link.title}</a>
                                                 </li>
                                           ))}
                                     </ul>
                                     <button
-                                    className='bg-gradient-to-r 
+                                          className='bg-gradient-to-r 
                                     from-primary to-secondary 
                                     text-white px-4 py-1 rounded-full
                                     hover:scale-105 duration-200'

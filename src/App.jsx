@@ -5,8 +5,7 @@ import Banner from './components/Banner/Banner.jsx'
 import AppStore from './components/AppStore/AppStore.jsx'
 import Testimonial from './components/Testimonial/Testimonial.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import Navbar from './components/navbar/Navbar.jsx'
-
+import Navbar from './components/Navbar/Navbar.jsx'
 
 import Aos from "aos";
 import "aos/dist/aos.css";
