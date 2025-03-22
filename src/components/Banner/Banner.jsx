@@ -22,7 +22,7 @@ const Banner = () => {
                                     {/* text content section */}
                                     <div className='flex flex-col justify-center gap-6 sm:pt-0'>
                                           <h1 data-aos="fade-up" className='text-3xl sm:text-4xl font-bold'>Buy 2 Get 1 Free</h1>
-                                          <p data-aos="fade-up" className='text-gray-500 text-sm tracking-wide loading-5'>Fridays are for freebies and burgers! Get a FREE paneer Burger when you order two delicious Great Cheeseburger or VegBurger  <br/> <br /> Here at DealSunny we keep an up to date list of all Burger Point coupons, so you never have to waste time searching the web for something that actually works. You never have to pay full price again with DealSunny! </p>
+                                          <p data-aos="fade-up" className='text-gray-500 text-sm tracking-wide loading-5'>Fridays are for freebies and burgers! Get a FREE paneer Burger when you order two delicious Great Cheeseburger or VegBurger  <br/> <br /> Here at DealSunny we keep an up to date list of all Burger King coupons, so you never have to waste time searching the web for something that actually works. You never have to pay full price again with DealSunny! </p>
                                           <div className='flex gap-6'>
                                                 <div data-aos="fade-up" >
                                                       <GrSecure className='text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100'/>

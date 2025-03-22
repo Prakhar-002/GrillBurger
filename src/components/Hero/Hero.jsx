@@ -52,7 +52,7 @@ const Hero = () => {
                                                       >
                                                             Burger
                                                       </span>{" "}
-                                                      Point
+                                                      King
                                                 </h1>
                                                 <p data-aos="fade-up" className="text-sm ">
                                                 This is a collection that glorifies and reveres burgers. Whatever kind it is; be it a hamburger, a cheeseburger, or even an impossible burger—there's a fitting caption for it here in this collection!

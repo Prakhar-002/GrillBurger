@@ -7,7 +7,7 @@ const AppStore = () => {
                   <div className='container'>
                         <div className='grid'>
                               <div className='space-y-6 max-w-xl mx-auto'>
-                                    <h1 data-aos="zoom-in" className='text-xl sm:text-4xl font-semibold text-center text-gray-700'> Burger Point is available for Android and IOS</h1>
+                                    <h1 data-aos="zoom-in" className='text-xl sm:text-4xl font-semibold text-center text-gray-700'> Burger King is available for Android and IOS</h1>
                                     <div className='flex flex-wrap justify-center items-center'>
                                           <a href="#">
                                                 <img 

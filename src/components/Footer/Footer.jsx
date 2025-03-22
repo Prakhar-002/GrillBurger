@@ -41,7 +41,7 @@ const Footer = () => {
                               <div className='py-8 px-4'>
                                     <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
                                           <img className='w-12' src={footerLogo} alt="Logo" />
-                                          Burger Point
+                                          Burger King
                                     </h1>
                                     <p>Food, in the end, in our own tradition, is something holy. It's not about nutrients and calories. It's about sharing. It's about honesty. It's about identity.</p>
                                     <br />

@@ -21,9 +21,9 @@ const settings = {
 const TestimonialData = [
   {
     id: 1,
-    name: "Geralt",
+    name: "Prakhar",
     testimonial:
-      "Burger point burger is one of the best in the town. Very delicious burger strongly recommend this especially Maharaja burger its very tasty",
+      "Burger King burger is one of the best in the town. Very delicious burger strongly recommend this especially Maharaja burger its very tasty",
     img: "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/ed/7b/default-avatar-2020-6.jpg",
   },
   {
@@ -35,7 +35,7 @@ const TestimonialData = [
   },
   {
     id: 3,
-    name: "Joe",
+    name: "Kakashi Hatake",
     testimonial:
       "This place has decent option of burgers to choose from. They should keep prices low to make this place worth visiting again and again",
     img: "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/f6/0d/default-avatar-2020-34.jpg",
