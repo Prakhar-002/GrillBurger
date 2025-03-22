@@ -14,31 +14,33 @@ const settings = {
   slidesToScroll: 1,
   autoplay: true,
   mobileFirst: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 1800,
   cssEase: "linear",
   pauseOnHover: true,
 };
+
+
 const TestimonialData = [
   {
     id: 1,
-    name: "Prakhar",
+    name: "Prakhar Katiyar",
     testimonial:
       "Burger King burger is one of the best in the town. Very delicious burger strongly recommend this especially Maharaja burger its very tasty",
-    img: "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/ed/7b/default-avatar-2020-6.jpg",
+    img: "https://images.pexels.com/photos/2389349/pexels-photo-2389349.jpeg?auto=compress&cs=tinysrgb&",
   },
   {
     id: 2,
     name: "John Doe",
     testimonial:
       "very nice burger. The best quality. Friendly staff and a good value for money.easy listening music and happy faces everywhere.",
-    img: "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/e7/3d/default-avatar-2020-55.jpg",
+    img: "https://images.pexels.com/photos/10831651/pexels-photo-10831651.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   },
   {
     id: 3,
     name: "Kakashi Hatake",
     testimonial:
       "This place has decent option of burgers to choose from. They should keep prices low to make this place worth visiting again and again",
-    img: "https://media-cdn.tripadvisor.com/media/photo-l/1a/f6/f6/0d/default-avatar-2020-34.jpg",
+    img: "https://images.pexels.com/photos/12129480/pexels-photo-12129480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
   },
 ];
 
@@ -62,7 +64,7 @@ const Testimonial = () => {
                     <div className='text-center shadow-lg p-4 rounded-xl space-y-3 my-8 mx-5'>
                       <h1 className='text-xl font-bold'>{data.name}</h1>
                       <img
-                      className='rounded-full block mx-auto '
+                      className='rounded-full block mx-auto max-w-[150px] max-h-[150px]'
                       src={data.img} alt="Testimonial" />
                       <p className='text-gray-500 text-sm'>{data.testimonial}</p>
                     </div>
